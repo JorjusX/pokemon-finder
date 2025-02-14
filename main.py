@@ -20,7 +20,7 @@ class Main(tk.Frame):
         self.entrythingy = tk.Entry()
         self.entrythingy.pack()
         self.entrythingy.config(width=50, font=("Parisienne", 12))
-        
+        #holA
         self.image_label = tk.Label(self)
         self.image_label.pack()
         self.image_label.config(width=100, height=100)
