@@ -1,0 +1,1031 @@
+id,name,dg,gender_rate
+id,name,dg,gender_rate
+1,bulbasaur,False,87.5
+2,ivysaur,False,87.5
+3,venusaur,True,87.5
+4,charmander,False,87.5
+5,charmeleon,False,87.5
+6,charizard,False,87.5
+7,squirtle,False,87.5
+8,wartortle,False,87.5
+9,blastoise,False,87.5
+10,caterpie,False,50
+11,metapod,False,50
+12,butterfree,True,50
+13,weedle,False,50
+14,kakuna,False,50
+15,beedrill,False,50
+16,pidgey,False,50
+17,pidgeotto,False,50
+18,pidgeot,False,50
+19,rattata,True,50
+20,raticate,True,50
+21,spearow,False,50
+22,fearow,False,50
+23,ekans,False,50
+24,arbok,False,50
+25,pikachu,True,50
+26,raichu,True,50
+27,sandshrew,False,50
+28,sandslash,False,50
+29,nidoran-f,False,0
+30,nidorina,False,0
+31,nidoqueen,False,0
+32,nidoran-m,False,100
+33,nidorino,False,100
+34,nidoking,False,100
+35,clefairy,False,25
+36,clefable,False,25
+37,vulpix,False,25
+38,ninetales,False,25
+39,jigglypuff,False,25
+40,wigglytuff,False,25
+41,zubat,True,50
+42,golbat,True,50
+43,oddish,False,50
+44,gloom,True,50
+45,vileplume,True,50
+46,paras,False,50
+47,parasect,False,50
+48,venonat,False,50
+49,venomoth,False,50
+50,diglett,False,50
+51,dugtrio,False,50
+52,meowth,False,50
+53,persian,False,50
+54,psyduck,False,50
+55,golduck,False,50
+56,mankey,False,50
+57,primeape,False,50
+58,growlithe,False,75
+59,arcanine,False,75
+60,poliwag,False,50
+61,poliwhirl,False,50
+62,poliwrath,False,50
+63,abra,False,75
+64,kadabra,True,75
+65,alakazam,True,75
+66,machop,False,75
+67,machoke,False,75
+68,machamp,False,75
+69,bellsprout,False,50
+70,weepinbell,False,50
+71,victreebel,False,50
+72,tentacool,False,50
+73,tentacruel,False,50
+74,geodude,False,50
+75,graveler,False,50
+76,golem,False,50
+77,ponyta,False,50
+78,rapidash,False,50
+79,slowpoke,False,50
+80,slowbro,False,50
+81,magnemite,False,Sin genero
+82,magneton,False,Sin genero
+83,farfetchd,False,50
+84,doduo,True,50
+85,dodrio,True,50
+86,seel,False,50
+87,dewgong,False,50
+88,grimer,False,50
+89,muk,False,50
+90,shellder,False,50
+91,cloyster,False,50
+92,gastly,False,50
+93,haunter,False,50
+94,gengar,False,50
+95,onix,False,50
+96,drowzee,False,50
+97,hypno,True,50
+98,krabby,False,50
+99,kingler,False,50
+100,voltorb,False,Sin genero
+101,electrode,False,Sin genero
+102,exeggcute,False,50
+103,exeggutor,False,50
+104,cubone,False,50
+105,marowak,False,50
+106,hitmonlee,False,100
+107,hitmonchan,False,100
+108,lickitung,False,50
+109,koffing,False,50
+110,weezing,False,50
+111,rhyhorn,True,50
+112,rhydon,True,50
+113,chansey,False,0
+114,tangela,False,50
+115,kangaskhan,False,0
+116,horsea,False,50
+117,seadra,False,50
+118,goldeen,True,50
+119,seaking,True,50
+120,staryu,False,Sin genero
+121,starmie,False,Sin genero
+122,mr-mime,False,50
+123,scyther,True,50
+124,jynx,False,0
+125,electabuzz,False,75
+126,magmar,False,75
+127,pinsir,False,50
+128,tauros,False,100
+129,magikarp,True,50
+130,gyarados,True,50
+131,lapras,False,50
+132,ditto,False,Sin genero
+133,eevee,True,87.5
+134,vaporeon,False,87.5
+135,jolteon,False,87.5
+136,flareon,False,87.5
+137,porygon,False,Sin genero
+138,omanyte,False,87.5
+139,omastar,False,87.5
+140,kabuto,False,87.5
+141,kabutops,False,87.5
+142,aerodactyl,False,87.5
+143,snorlax,False,87.5
+144,articuno,False,Sin genero
+145,zapdos,False,Sin genero
+146,moltres,False,Sin genero
+147,dratini,False,50
+148,dragonair,False,50
+149,dragonite,False,50
+150,mewtwo,False,Sin genero
+151,mew,False,Sin genero
+152,chikorita,False,87.5
+153,bayleef,False,87.5
+154,meganium,True,87.5
+155,cyndaquil,False,87.5
+156,quilava,False,87.5
+157,typhlosion,False,87.5
+158,totodile,False,87.5
+159,croconaw,False,87.5
+160,feraligatr,False,87.5
+161,sentret,False,50
+162,furret,False,50
+163,hoothoot,False,50
+164,noctowl,False,50
+165,ledyba,True,50
+166,ledian,True,50
+167,spinarak,False,50
+168,ariados,False,50
+169,crobat,False,50
+170,chinchou,False,50
+171,lanturn,False,50
+172,pichu,False,50
+173,cleffa,False,25
+174,igglybuff,False,25
+175,togepi,False,87.5
+176,togetic,False,87.5
+177,natu,False,50
+178,xatu,True,50
+179,mareep,False,50
+180,flaaffy,False,50
+181,ampharos,False,50
+182,bellossom,False,50
+183,marill,False,50
+184,azumarill,False,50
+185,sudowoodo,True,50
+186,politoed,True,50
+187,hoppip,False,50
+188,skiploom,False,50
+189,jumpluff,False,50
+190,aipom,True,50
+191,sunkern,False,50
+192,sunflora,False,50
+193,yanma,False,50
+194,wooper,True,50
+195,quagsire,True,50
+196,espeon,False,87.5
+197,umbreon,False,87.5
+198,murkrow,True,50
+199,slowking,False,50
+200,misdreavus,False,50
+201,unown,False,Sin genero
+202,wobbuffet,True,50
+203,girafarig,True,50
+204,pineco,False,50
+205,forretress,False,50
+206,dunsparce,False,50
+207,gligar,True,50
+208,steelix,True,50
+209,snubbull,False,25
+210,granbull,False,25
+211,qwilfish,False,50
+212,scizor,True,50
+213,shuckle,False,50
+214,heracross,True,50
+215,sneasel,True,50
+216,teddiursa,False,50
+217,ursaring,True,50
+218,slugma,False,50
+219,magcargo,False,50
+220,swinub,False,50
+221,piloswine,True,50
+222,corsola,False,25
+223,remoraid,False,50
+224,octillery,True,50
+225,delibird,False,50
+226,mantine,False,50
+227,skarmory,False,50
+228,houndour,False,50
+229,houndoom,True,50
+230,kingdra,False,50
+231,phanpy,False,50
+232,donphan,True,50
+233,porygon2,False,Sin genero
+234,stantler,False,50
+235,smeargle,False,50
+236,tyrogue,False,100
+237,hitmontop,False,100
+238,smoochum,False,0
+239,elekid,False,75
+240,magby,False,75
+241,miltank,False,0
+242,blissey,False,0
+243,raikou,False,Sin genero
+244,entei,False,Sin genero
+245,suicune,False,Sin genero
+246,larvitar,False,50
+247,pupitar,False,50
+248,tyranitar,False,50
+249,lugia,False,Sin genero
+250,ho-oh,False,Sin genero
+251,celebi,False,Sin genero
+252,treecko,False,87.5
+253,grovyle,False,87.5
+254,sceptile,False,87.5
+255,torchic,True,87.5
+256,combusken,True,87.5
+257,blaziken,True,87.5
+258,mudkip,False,87.5
+259,marshtomp,False,87.5
+260,swampert,False,87.5
+261,poochyena,False,50
+262,mightyena,False,50
+263,zigzagoon,False,50
+264,linoone,False,50
+265,wurmple,False,50
+266,silcoon,False,50
+267,beautifly,True,50
+268,cascoon,False,50
+269,dustox,True,50
+270,lotad,False,50
+271,lombre,False,50
+272,ludicolo,True,50
+273,seedot,False,50
+274,nuzleaf,True,50
+275,shiftry,True,50
+276,taillow,False,50
+277,swellow,False,50
+278,wingull,False,50
+279,pelipper,False,50
+280,ralts,False,50
+281,kirlia,False,50
+282,gardevoir,False,50
+283,surskit,False,50
+284,masquerain,False,50
+285,shroomish,False,50
+286,breloom,False,50
+287,slakoth,False,50
+288,vigoroth,False,50
+289,slaking,False,50
+290,nincada,False,50
+291,ninjask,False,50
+292,shedinja,False,Sin genero
+293,whismur,False,50
+294,loudred,False,50
+295,exploud,False,50
+296,makuhita,False,75
+297,hariyama,False,75
+298,azurill,False,25
+299,nosepass,False,50
+300,skitty,False,25
+301,delcatty,False,25
+302,sableye,False,50
+303,mawile,False,50
+304,aron,False,50
+305,lairon,False,50
+306,aggron,False,50
+307,meditite,True,50
+308,medicham,True,50
+309,electrike,False,50
+310,manectric,False,50
+311,plusle,False,50
+312,minun,False,50
+313,volbeat,False,100
+314,illumise,False,0
+315,roselia,True,50
+316,gulpin,True,50
+317,swalot,True,50
+318,carvanha,False,50
+319,sharpedo,False,50
+320,wailmer,False,50
+321,wailord,False,50
+322,numel,True,50
+323,camerupt,True,50
+324,torkoal,False,50
+325,spoink,False,50
+326,grumpig,False,50
+327,spinda,False,50
+328,trapinch,False,50
+329,vibrava,False,50
+330,flygon,False,50
+331,cacnea,False,50
+332,cacturne,True,50
+333,swablu,False,50
+334,altaria,False,50
+335,zangoose,False,50
+336,seviper,False,50
+337,lunatone,False,Sin genero
+338,solrock,False,Sin genero
+339,barboach,False,50
+340,whiscash,False,50
+341,corphish,False,50
+342,crawdaunt,False,50
+343,baltoy,False,Sin genero
+344,claydol,False,Sin genero
+345,lileep,False,87.5
+346,cradily,False,87.5
+347,anorith,False,87.5
+348,armaldo,False,87.5
+349,feebas,False,50
+350,milotic,True,50
+351,castform,False,50
+352,kecleon,False,50
+353,shuppet,False,50
+354,banette,False,50
+355,duskull,False,50
+356,dusclops,False,50
+357,tropius,False,50
+358,chimecho,False,50
+359,absol,False,50
+360,wynaut,False,50
+361,snorunt,False,50
+362,glalie,False,50
+363,spheal,False,50
+364,sealeo,False,50
+365,walrein,False,50
+366,clamperl,False,50
+367,huntail,False,50
+368,gorebyss,False,50
+369,relicanth,True,87.5
+370,luvdisc,False,25
+371,bagon,False,50
+372,shelgon,False,50
+373,salamence,False,50
+374,beldum,False,Sin genero
+375,metang,False,Sin genero
+376,metagross,False,Sin genero
+377,regirock,False,Sin genero
+378,regice,False,Sin genero
+379,registeel,False,Sin genero
+380,latias,False,0
+381,latios,False,100
+382,kyogre,False,Sin genero
+383,groudon,False,Sin genero
+384,rayquaza,False,Sin genero
+385,jirachi,False,Sin genero
+386,deoxys-normal,False,Sin genero
+387,turtwig,False,87.5
+388,grotle,False,87.5
+389,torterra,False,87.5
+390,chimchar,False,87.5
+391,monferno,False,87.5
+392,infernape,False,87.5
+393,piplup,False,87.5
+394,prinplup,False,87.5
+395,empoleon,False,87.5
+396,starly,True,50
+397,staravia,True,50
+398,staraptor,True,50
+399,bidoof,True,50
+400,bibarel,True,50
+401,kricketot,True,50
+402,kricketune,True,50
+403,shinx,True,50
+404,luxio,True,50
+405,luxray,True,50
+406,budew,False,50
+407,roserade,True,50
+408,cranidos,False,87.5
+409,rampardos,False,87.5
+410,shieldon,False,87.5
+411,bastiodon,False,87.5
+412,burmy,False,50
+413,wormadam-plant,False,0
+414,mothim,False,100
+415,combee,True,87.5
+416,vespiquen,False,0
+417,pachirisu,True,50
+418,buizel,True,50
+419,floatzel,True,50
+420,cherubi,False,50
+421,cherrim,False,50
+422,shellos,False,50
+423,gastrodon,False,50
+424,ambipom,True,50
+425,drifloon,False,50
+426,drifblim,False,50
+427,buneary,False,50
+428,lopunny,False,50
+429,mismagius,False,50
+430,honchkrow,False,50
+431,glameow,False,25
+432,purugly,False,25
+433,chingling,False,50
+434,stunky,False,50
+435,skuntank,False,50
+436,bronzor,False,Sin genero
+437,bronzong,False,Sin genero
+438,bonsly,False,50
+439,mime-jr,False,50
+440,happiny,False,0
+441,chatot,False,50
+442,spiritomb,False,50
+443,gible,True,50
+444,gabite,True,50
+445,garchomp,True,50
+446,munchlax,False,87.5
+447,riolu,False,87.5
+448,lucario,False,87.5
+449,hippopotas,True,50
+450,hippowdon,True,50
+451,skorupi,False,50
+452,drapion,False,50
+453,croagunk,True,50
+454,toxicroak,True,50
+455,carnivine,False,50
+456,finneon,True,50
+457,lumineon,True,50
+458,mantyke,False,50
+459,snover,True,50
+460,abomasnow,True,50
+461,weavile,True,50
+462,magnezone,False,Sin genero
+463,lickilicky,False,50
+464,rhyperior,True,50
+465,tangrowth,True,50
+466,electivire,False,75
+467,magmortar,False,75
+468,togekiss,False,87.5
+469,yanmega,False,50
+470,leafeon,False,87.5
+471,glaceon,False,87.5
+472,gliscor,False,50
+473,mamoswine,True,50
+474,porygon-z,False,Sin genero
+475,gallade,False,100
+476,probopass,False,50
+477,dusknoir,False,50
+478,froslass,False,0
+479,rotom,False,Sin genero
+480,uxie,False,Sin genero
+481,mesprit,False,Sin genero
+482,azelf,False,Sin genero
+483,dialga,False,Sin genero
+484,palkia,False,Sin genero
+485,heatran,False,50
+486,regigigas,False,Sin genero
+487,giratina-altered,False,Sin genero
+488,cresselia,False,0
+489,phione,False,Sin genero
+490,manaphy,False,Sin genero
+491,darkrai,False,Sin genero
+492,shaymin-land,False,Sin genero
+493,arceus,False,Sin genero
+494,victini,False,Sin genero
+495,snivy,False,87.5
+496,servine,False,87.5
+497,serperior,False,87.5
+498,tepig,False,87.5
+499,pignite,False,87.5
+500,emboar,False,87.5
+501,oshawott,False,87.5
+502,dewott,False,87.5
+503,samurott,False,87.5
+504,patrat,False,50
+505,watchog,False,50
+506,lillipup,False,50
+507,herdier,False,50
+508,stoutland,False,50
+509,purrloin,False,50
+510,liepard,False,50
+511,pansage,False,87.5
+512,simisage,False,87.5
+513,pansear,False,87.5
+514,simisear,False,87.5
+515,panpour,False,87.5
+516,simipour,False,87.5
+517,munna,False,50
+518,musharna,False,50
+519,pidove,False,50
+520,tranquill,False,50
+521,unfezant,True,50
+522,blitzle,False,50
+523,zebstrika,False,50
+524,roggenrola,False,50
+525,boldore,False,50
+526,gigalith,False,50
+527,woobat,False,50
+528,swoobat,False,50
+529,drilbur,False,50
+530,excadrill,False,50
+531,audino,False,50
+532,timburr,False,75
+533,gurdurr,False,75
+534,conkeldurr,False,75
+535,tympole,False,50
+536,palpitoad,False,50
+537,seismitoad,False,50
+538,throh,False,100
+539,sawk,False,100
+540,sewaddle,False,50
+541,swadloon,False,50
+542,leavanny,False,50
+543,venipede,False,50
+544,whirlipede,False,50
+545,scolipede,False,50
+546,cottonee,False,50
+547,whimsicott,False,50
+548,petilil,False,0
+549,lilligant,False,0
+550,basculin-red-striped,False,50
+551,sandile,False,50
+552,krokorok,False,50
+553,krookodile,False,50
+554,darumaka,False,50
+555,darmanitan-standard,False,50
+556,maractus,False,50
+557,dwebble,False,50
+558,crustle,False,50
+559,scraggy,False,50
+560,scrafty,False,50
+561,sigilyph,False,50
+562,yamask,False,50
+563,cofagrigus,False,50
+564,tirtouga,False,87.5
+565,carracosta,False,87.5
+566,archen,False,87.5
+567,archeops,False,87.5
+568,trubbish,False,50
+569,garbodor,False,50
+570,zorua,False,87.5
+571,zoroark,False,87.5
+572,minccino,False,25
+573,cinccino,False,25
+574,gothita,False,25
+575,gothorita,False,25
+576,gothitelle,False,25
+577,solosis,False,50
+578,duosion,False,50
+579,reuniclus,False,50
+580,ducklett,False,50
+581,swanna,False,50
+582,vanillite,False,50
+583,vanillish,False,50
+584,vanilluxe,False,50
+585,deerling,False,50
+586,sawsbuck,False,50
+587,emolga,False,50
+588,karrablast,False,50
+589,escavalier,False,50
+590,foongus,False,50
+591,amoonguss,False,50
+592,frillish,True,50
+593,jellicent,True,50
+594,alomomola,False,50
+595,joltik,False,50
+596,galvantula,False,50
+597,ferroseed,False,50
+598,ferrothorn,False,50
+599,klink,False,Sin genero
+600,klang,False,Sin genero
+601,klinklang,False,Sin genero
+602,tynamo,False,50
+603,eelektrik,False,50
+604,eelektross,False,50
+605,elgyem,False,50
+606,beheeyem,False,50
+607,litwick,False,50
+608,lampent,False,50
+609,chandelure,False,50
+610,axew,False,50
+611,fraxure,False,50
+612,haxorus,False,50
+613,cubchoo,False,50
+614,beartic,False,50
+615,cryogonal,False,Sin genero
+616,shelmet,False,50
+617,accelgor,False,50
+618,stunfisk,False,50
+619,mienfoo,False,50
+620,mienshao,False,50
+621,druddigon,False,50
+622,golett,False,Sin genero
+623,golurk,False,Sin genero
+624,pawniard,False,50
+625,bisharp,False,50
+626,bouffalant,False,50
+627,rufflet,False,100
+628,braviary,False,100
+629,vullaby,False,0
+630,mandibuzz,False,0
+631,heatmor,False,50
+632,durant,False,50
+633,deino,False,50
+634,zweilous,False,50
+635,hydreigon,False,50
+636,larvesta,False,50
+637,volcarona,False,50
+638,cobalion,False,Sin genero
+639,terrakion,False,Sin genero
+640,virizion,False,Sin genero
+641,tornadus-incarnate,False,100
+642,thundurus-incarnate,False,100
+643,reshiram,False,Sin genero
+644,zekrom,False,Sin genero
+645,landorus-incarnate,False,100
+646,kyurem,False,Sin genero
+647,keldeo-ordinary,False,Sin genero
+648,meloetta-aria,False,Sin genero
+649,genesect,False,Sin genero
+650,chespin,False,87.5
+651,quilladin,False,87.5
+652,chesnaught,False,87.5
+653,fennekin,False,87.5
+654,braixen,False,87.5
+655,delphox,False,87.5
+656,froakie,False,87.5
+657,frogadier,False,87.5
+658,greninja,False,87.5
+659,bunnelby,False,50
+660,diggersby,False,50
+661,fletchling,False,50
+662,fletchinder,False,50
+663,talonflame,False,50
+664,scatterbug,False,50
+665,spewpa,False,50
+666,vivillon,False,50
+667,litleo,False,12.5
+668,pyroar,True,12.5
+669,flabebe,False,0
+670,floette,False,0
+671,florges,False,0
+672,skiddo,False,50
+673,gogoat,False,50
+674,pancham,False,50
+675,pangoro,False,50
+676,furfrou,False,50
+677,espurr,False,50
+678,meowstic-male,True,100
+678,meowstic-female,True,0
+679,honedge,False,50
+680,doublade,False,50
+681,aegislash-shield,False,50
+682,spritzee,False,50
+683,aromatisse,False,50
+684,swirlix,False,50
+685,slurpuff,False,50
+686,inkay,False,50
+687,malamar,False,50
+688,binacle,False,50
+689,barbaracle,False,50
+690,skrelp,False,50
+691,dragalge,False,50
+692,clauncher,False,50
+693,clawitzer,False,50
+694,helioptile,False,50
+695,heliolisk,False,50
+696,tyrunt,False,87.5
+697,tyrantrum,False,87.5
+698,amaura,False,87.5
+699,aurorus,False,87.5
+700,sylveon,False,87.5
+701,hawlucha,False,50
+702,dedenne,False,50
+703,carbink,False,Sin genero
+704,goomy,False,50
+705,sliggoo,False,50
+706,goodra,False,50
+707,klefki,False,50
+708,phantump,False,50
+709,trevenant,False,50
+710,pumpkaboo-average,False,50
+711,gourgeist-average,False,50
+712,bergmite,False,50
+713,avalugg,False,50
+714,noibat,False,50
+715,noivern,False,50
+716,xerneas,False,Sin genero
+717,yveltal,False,Sin genero
+718,zygarde-50,False,Sin genero
+719,diancie,False,Sin genero
+720,hoopa,False,Sin genero
+721,volcanion,False,Sin genero
+722,rowlet,False,87.5
+723,dartrix,False,87.5
+724,decidueye,False,87.5
+725,litten,False,87.5
+726,torracat,False,87.5
+727,incineroar,False,87.5
+728,popplio,False,87.5
+729,brionne,False,87.5
+730,primarina,False,87.5
+731,pikipek,False,50
+732,trumbeak,False,50
+733,toucannon,False,50
+734,yungoos,False,50
+735,gumshoos,False,50
+736,grubbin,False,50
+737,charjabug,False,50
+738,vikavolt,False,50
+739,crabrawler,False,50
+740,crabominable,False,50
+741,oricorio-baile,False,25
+742,cutiefly,False,50
+743,ribombee,False,50
+744,rockruff,False,50
+745,lycanroc-midday,False,50
+746,wishiwashi-solo,False,50
+747,mareanie,False,50
+748,toxapex,False,50
+749,mudbray,False,50
+750,mudsdale,False,50
+751,dewpider,False,50
+752,araquanid,False,50
+753,fomantis,False,50
+754,lurantis,False,50
+755,morelull,False,50
+756,shiinotic,False,50
+757,salandit,False,87.5
+758,salazzle,False,0
+759,stufful,False,50
+760,bewear,False,50
+761,bounsweet,False,0
+762,steenee,False,0
+763,tsareena,False,0
+764,comfey,False,25
+765,oranguru,False,50
+766,passimian,False,50
+767,wimpod,False,50
+768,golisopod,False,50
+769,sandygast,False,50
+770,palossand,False,50
+771,pyukumuku,False,50
+772,type-null,False,Sin genero
+773,silvally,False,Sin genero
+774,minior-red-meteor,False,Sin genero
+775,komala,False,50
+776,turtonator,False,50
+777,togedemaru,False,50
+778,mimikyu-disguised,False,50
+779,bruxish,False,50
+780,drampa,False,50
+781,dhelmise,False,Sin genero
+782,jangmo-o,False,50
+783,hakamo-o,False,50
+784,kommo-o,False,50
+785,tapu-koko,False,Sin genero
+786,tapu-lele,False,Sin genero
+787,tapu-bulu,False,Sin genero
+788,tapu-fini,False,Sin genero
+789,cosmog,False,Sin genero
+790,cosmoem,False,Sin genero
+791,solgaleo,False,Sin genero
+792,lunala,False,Sin genero
+793,nihilego,False,Sin genero
+794,buzzwole,False,Sin genero
+795,pheromosa,False,Sin genero
+796,xurkitree,False,Sin genero
+797,celesteela,False,Sin genero
+798,kartana,False,Sin genero
+799,guzzlord,False,Sin genero
+800,necrozma,False,Sin genero
+801,magearna,False,Sin genero
+802,marshadow,False,Sin genero
+803,poipole,False,Sin genero
+804,naganadel,False,Sin genero
+805,stakataka,False,Sin genero
+806,blacephalon,False,Sin genero
+807,zeraora,False,Sin genero
+808,meltan,False,Sin genero
+809,melmetal,False,Sin genero
+810,grookey,False,87.5
+811,thwackey,False,87.5
+812,rillaboom,False,87.5
+813,scorbunny,False,87.5
+814,raboot,False,87.5
+815,cinderace,False,87.5
+816,sobble,False,87.5
+817,drizzile,False,87.5
+818,inteleon,False,87.5
+819,skwovet,False,50
+820,greedent,False,50
+821,rookidee,False,50
+822,corvisquire,False,50
+823,corviknight,False,50
+824,blipbug,False,50
+825,dottler,False,50
+826,orbeetle,False,50
+827,nickit,False,50
+828,thievul,False,50
+829,gossifleur,False,50
+830,eldegoss,False,50
+831,wooloo,False,50
+832,dubwool,False,50
+833,chewtle,False,50
+834,drednaw,False,50
+835,yamper,False,50
+836,boltund,False,50
+837,rolycoly,False,50
+838,carkol,False,50
+839,coalossal,False,50
+840,applin,False,50
+841,flapple,False,50
+842,appletun,False,50
+843,silicobra,False,50
+844,sandaconda,False,50
+845,cramorant,False,50
+846,arrokuda,False,50
+847,barraskewda,False,50
+848,toxel,False,50
+849,toxtricity-amped,False,50
+850,sizzlipede,False,50
+851,centiskorch,False,50
+852,clobbopus,False,50
+853,grapploct,False,50
+854,sinistea,False,Sin genero
+855,polteageist,False,Sin genero
+856,hatenna,False,0
+857,hattrem,False,0
+858,hatterene,False,0
+859,impidimp,False,100
+860,morgrem,False,100
+861,grimmsnarl,False,100
+862,obstagoon,False,50
+863,perrserker,False,50
+864,cursola,False,25
+865,sirfetchd,False,50
+866,mr-rime,False,50
+867,runerigus,False,50
+868,milcery,False,0
+869,alcremie,False,0
+870,falinks,False,Sin genero
+871,pincurchin,False,50
+872,snom,False,50
+873,frosmoth,False,50
+874,stonjourner,False,50
+875,eiscue-ice,False,50
+876,indeedee-male,True,100
+876,indeedee-female,True,0
+877,morpeko-full-belly,False,50
+878,cufant,False,50
+879,copperajah,False,50
+880,dracozolt,False,Sin genero
+881,arctozolt,False,Sin genero
+882,dracovish,False,Sin genero
+883,arctovish,False,Sin genero
+884,duraludon,False,50
+885,dreepy,False,50
+886,drakloak,False,50
+887,dragapult,False,50
+888,zacian,False,Sin genero
+889,zamazenta,False,Sin genero
+890,eternatus,False,Sin genero
+891,kubfu,False,87.5
+892,urshifu-single-strike,False,87.5
+893,zarude,False,Sin genero
+894,regieleki,False,Sin genero
+895,regidrago,False,Sin genero
+896,glastrier,False,Sin genero
+897,spectrier,False,Sin genero
+898,calyrex,False,Sin genero
+899,wyrdeer,False,50
+900,kleavor,False,50
+901,ursaluna,False,50
+902,basculegion-male,True,100
+902,basculegion-female,True,0
+903,sneasler,False,50
+904,overqwil,False,50
+905,enamorus-incarnate,False,0
+906,sprigatito,False,87.5
+907,floragato,False,87.5
+908,meowscarada,False,87.5
+909,fuecoco,False,87.5
+910,crocalor,False,87.5
+911,skeledirge,False,87.5
+912,quaxly,False,87.5
+913,quaxwell,False,87.5
+914,quaquaval,False,87.5
+915,lechonk,False,50
+916,oinkologne-male,True,100
+916,oinkologne-female,True,0
+917,tarountula,False,50
+918,spidops,False,50
+919,nymble,False,50
+920,lokix,False,50
+921,pawmi,False,50
+922,pawmo,False,50
+923,pawmot,False,50
+924,tandemaus,False,Sin genero
+925,maushold-family-of-four,False,Sin genero
+926,fidough,False,50
+927,dachsbun,False,50
+928,smoliv,False,50
+929,dolliv,False,50
+930,arboliva,False,50
+931,squawkabilly-green-plumage,False,50
+932,nacli,False,50
+933,naclstack,False,50
+934,garganacl,False,50
+935,charcadet,False,50
+936,armarouge,False,50
+937,ceruledge,False,50
+938,tadbulb,False,50
+939,bellibolt,False,50
+940,wattrel,False,50
+941,kilowattrel,False,50
+942,maschiff,False,50
+943,mabosstiff,False,50
+944,shroodle,False,50
+945,grafaiai,False,50
+946,bramblin,False,50
+947,brambleghast,False,50
+948,toedscool,False,50
+949,toedscruel,False,50
+950,klawf,False,50
+951,capsakid,False,50
+952,scovillain,False,50
+953,rellor,False,50
+954,rabsca,False,50
+955,flittle,False,50
+956,espathra,False,50
+957,tinkatink,False,0
+958,tinkatuff,False,0
+959,tinkaton,False,0
+960,wiglett,False,50
+961,wugtrio,False,50
+962,bombirdier,False,50
+963,finizen,False,50
+964,palafin-zero,False,50
+965,varoom,False,50
+966,revavroom,False,50
+967,cyclizar,False,50
+968,orthworm,False,50
+969,glimmet,False,50
+970,glimmora,False,50
+971,greavard,False,50
+972,houndstone,False,50
+973,flamigo,False,50
+974,cetoddle,False,50
+975,cetitan,False,50
+976,veluza,False,50
+977,dondozo,False,50
+978,tatsugiri-curly,False,50
+979,annihilape,False,50
+980,clodsire,False,50
+981,farigiraf,False,50
+982,dudunsparce-two-segment,False,50
+983,kingambit,False,50
+984,great-tusk,False,Sin genero
+985,scream-tail,False,Sin genero
+986,brute-bonnet,False,Sin genero
+987,flutter-mane,False,Sin genero
+988,slither-wing,False,Sin genero
+989,sandy-shocks,False,Sin genero
+990,iron-treads,False,Sin genero
+991,iron-bundle,False,Sin genero
+992,iron-hands,False,Sin genero
+993,iron-jugulis,False,Sin genero
+994,iron-moth,False,Sin genero
+995,iron-thorns,False,Sin genero
+996,frigibax,False,50
+997,arctibax,False,50
+998,baxcalibur,False,50
+999,gimmighoul,False,Sin genero
+1000,gholdengo,False,Sin genero
+1001,wo-chien,False,Sin genero
+1002,chien-pao,False,Sin genero
+1003,ting-lu,False,Sin genero
+1004,chi-yu,False,Sin genero
+1005,roaring-moon,False,Sin genero
+1006,iron-valiant,False,Sin genero
+1007,koraidon,False,Sin genero
+1008,miraidon,False,Sin genero
+1009,walking-wake,False,Sin genero
+1010,iron-leaves,False,Sin genero
+1011,dipplin,False,Sin genero
+1012,poltchageist,False,Sin genero
+1013,sinistcha,False,Sin genero
+1014,okidogi,False,Sin genero
+1015,munkidori,False,Sin genero
+1016,fezandipiti,False,Sin genero
+1017,ogerpon,False,Sin genero
+1018,archaludon,False,50
+1019,hydrapple,False,50
+1020,gouging-fire,False,Sin genero
+1021,raging-bolt,False,Sin genero
+1022,iron-boulder,False,Sin genero
+1023,iron-crown,False,Sin genero
+1024,terapagos,False,Sin genero
+1025,pecharunt,False,Sin genero
