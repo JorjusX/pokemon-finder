@@ -13,7 +13,6 @@ class Excepciones:
     def sin_sprite(self, pokemon, variantes):
         variantes = [variante for variante in variantes if "-starter" not in variante['pokemon']['name'] and "-totem" not in variante['pokemon']['name']]
         # Elimina los dominantes y los iniciales de let's go
-
         result = requests.get("https://pokeapi.co/api/v2/pokemon-species/"+str(pokemon))
 
         if "miraidon" in pokemon:
@@ -28,14 +27,14 @@ class Excepciones:
             variantes = []
         elif "zygarde" in pokemon:
             variantes = [variante for variante in variantes if "zygarde" not in variante['pokemon']['name']]
-        elif "mimikyu" in pokemon:  # Veia bien hacer esto de forma distinta para que aunque por defecto aparezca la forma disguised, el usuario vea la posibilidad de añadir la otra forma
+        elif "mimikyu" in pokemon:
             if pokemon == "mimikyu-busted":
                 variantes[1]['pokemon']['name'] = variantes[0]['pokemon']['name']
         elif "cramorant" in pokemon:
             variantes = [variante for variante in variantes if "cramorant" not in variante['pokemon']['name']]
             self.insert("Solo existe sprite para la forma normal de Cramorant\n")
 
-        elif result.text == "Not Found":  # Cuando eliges una forma especial tambien te dice las otras formas e incluso la basica de haberla
+        elif result.text == "Not Found":
             pokemon = pokemon.replace("-", " ").split()[0]
             result = requests.get("https://pokeapi.co/api/v2/pokemon-species/"+str(pokemon))
             for i in range(len(variantes)):
@@ -112,12 +111,11 @@ class Excepciones:
             self.insert("Elije wishiwashi-solo, wishiwashi-school o random\n")
         elif pokemon == "codigo-cero":
             pokemon = "type-null"
-            self.insert("El nombre de este pokemon es type-null\n")  # En español se llama codigo cero pero su nombre real es type null
+            self.insert("El nombre de este pokemon es type-null\n")
         elif pokemon == "minior":
             self.insert("Elije minior-red-meteor, minior-orange-meteor, minior-yellow-meteor, minior-green-meteor, minior-blue-meteor, minior-indigo-meteor, minior-violet-meteor, minior-red, minior-orange, minior-yellow, minior-green, minior-blue, minior-indigo, minior-violet o random(meteor, core o ambos)\n")
         elif pokemon == "mimikyu":
             pokemon = "mimikyu-disguised"
-            # Quiero que la gente vea como realmente la app nombra la forma base de mimikyu y que sea la que aparezca por defecto al ser la forma "real"
         elif pokemon == "toxtricity":
             self.insert("Elije toxtricity-amped, toxtricity-low-key o random\n")
         elif pokemon == "eiscue":
@@ -259,7 +257,6 @@ class Excepciones:
         elif pokemon == "pikachu-world-cap":
             self.insert("El sprite Pikachu-world-cap no puede cargarse, lo siento :-(\n")
             pokemon="pikachu"
-            
         elif "koraidon" in pokemon:
             pokemon = "koraidon"
         elif "miraidon" in pokemon:
@@ -286,67 +283,3 @@ class Excepciones:
         Detalles.main(self, pokemon)
         self.contents.set(pokemon)
         return pokemon
-    
-"""if pokemon == "nidoran":
-            raise Excepciones.NidoranException("Especifica si es nidoran-m o nidoran-f")
-        if pokemon == "deoxys":
-            raise Excepciones.DeoxysException("Especifica la forma de deoxys")
-        if pokemon == "wormadam":
-            raise Excepciones.WormadamException("Especifica la forma de wormadam")
-        if pokemon == "giratina":
-            raise Excepciones.GiratinaException("Especifica la forma de giratina")
-        if pokemon == "shaymin":
-            raise Excepciones.ShayminException("Especifica la forma de shaymin")
-        if pokemon == "basculin":
-            raise Excepciones.BasculinException("Especifica la forma de basculin")
-        if pokemon == "darmanitan":
-            raise Excepciones.DarmanitanException("Especifica la forma de darmanitan")
-        if pokemon == "tornadus":
-            raise Excepciones.TornadusException("Especifica la forma de tornadus")
-        if pokemon == "thundurus":
-            raise Excepciones.ThundurusException("Especifica la forma de thundurus")
-        if pokemon == "landorus":
-            raise Excepciones.LandorusException("Especifica la forma de landorus")
-        if pokemon == "keldeo":
-            raise Excepciones.KeldeoException("Especifica la forma de keldeo")
-        if pokemon == "meloetta":
-            raise Excepciones.MeloettaException("Especifica la forma de meloetta")
-        if pokemon == "meowstic":
-            raise Excepciones.MeowsticException("Especifica la forma de meowstic")
-        if pokemon == "aegislash":
-            raise Excepciones.AegislashException("Especifica la forma de aegislash")
-        if pokemon == "pumpkaboo":
-            raise Excepciones.PumpkabooException("Especifica el tamaño de pumpkaboo")
-        if pokemon == "gourgeist":
-            raise Excepciones.GourgeistException("Especifica el tamaño de gourgeist")
-        if pokemon == "oricorio":
-            raise Excepciones.OricorioException("Especifica la forma de oricorio")
-        if pokemon == "lycanroc":
-            raise Excepciones.LycanrocException("Especifica la forma de lycanroc")
-        if pokemon == "wishiwashi":
-            raise Excepciones.WishiwashiException("Especifica la forma de wishiwashi")
-        if pokemon == "minior":
-            raise Excepciones.MiniorException("Especifica la forma de minior")
-        if pokemon == "mimikyu":
-            raise Excepciones.MimikyuException("Especifica la forma de mimikyu")
-        if pokemon == "toxtricity":
-            raise Excepciones.ToxtricityException("Especifica la forma de toxtricity")
-        if pokemon == "eiscue":
-            raise Excepciones.EiscueException("Especifica la forma de eiscue")
-        if pokemon == "indeedee":
-            raise Excepciones.IndeedeeException("Especifica la forma de indeedee")
-        if pokemon == "urshifu":
-            raise Excepciones.UrshifuException("Especifica la forma de urshifu")
-        if pokemon == "basculegion":
-            raise Excepciones.BasculegionException("Especifica la forma de basculegion")
-        if pokemon == "enamorus":
-            raise Excepciones.EnamorusException("Especifica la forma de enamorus")"""
-            
-""" if pokemon == "aegislash":
-            self.contents.set("Elije aegislash-sword, aegislash-shield o random")
-            if self.contents == "aegislash-sword":
-                pokemon = "aegislash-sword"
-            if self.contents == "aegislash-shield":
-                pokemon = "aegislash-shield"
-            if self.contents == "random":
-                pokemon = random.choice(["aegislash-shield","egislash-sword"])"""

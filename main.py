@@ -20,7 +20,7 @@ class Main(tk.Frame):
         self.entrythingy = tk.Entry()
         self.entrythingy.pack()
         self.entrythingy.config(width=50, font=("Parisienne", 12))
-        #holA
+
         self.image_label = tk.Label(self)
         self.image_label.pack()
         self.image_label.config(width=100, height=100)
@@ -86,11 +86,9 @@ class Main(tk.Frame):
         
     def entregarPokemon(self, pokemon):
         pokemon = Excepciones.variaciones(self, pokemon)
-        #if self.image_label.cget("image") == str(self.image):
         print(f"Buscando pokemon {pokemon}")
         
         result = requests.get("https://pokeapi.co/api/v2/pokemon/"+str(pokemon))
-        #image_url = result.json()['sprites']['front_default']
         image_url = self.establecer_genero(pokemon)
         image_url = self.calcular_shiny(pokemon, image_url=image_url)
         print(f"Se encontro el pokemon {pokemon}")
@@ -155,7 +153,7 @@ class Main(tk.Frame):
     def establecer_genero(self, pokemon):
         print("Estableciendo genero")
         result = requests.get("https://pokeapi.co/api/v2/pokemon/"+str(pokemon))         
-        rates_csv = pd.read_csv("pruebas/pokemon_app/Listas/d_rates.csv")
+        rates_csv = pd.read_csv("Listas/d_rates.csv")
         id_poke = result.json()['id']
         name = result.json()['name']
         rate = rates_csv['gender_rate']
